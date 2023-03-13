@@ -8,6 +8,10 @@
     margin: 10px;
 }
 
+.icons {
+    color: black;
+}
+
 .icons:hover {
     color: #5e5d5b;
 }

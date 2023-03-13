@@ -35,10 +35,9 @@
 }
 
 .img-div img {
-    height: 480px;
-    width: 480px;
+    height: 400px;
+    width: 400px;
 }
-
 
 @media screen and (max-width: 1050px) {
     .intro-div {

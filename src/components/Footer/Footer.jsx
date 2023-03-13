@@ -6,9 +6,16 @@ import "./footer.css"
 const Footer = () => {
   return (
     <div className='footer'>
-        <div> <GrLinkedinOption className='icons' size={30} /> 
+        <div> 
+            <a href='https://www.linkedin.com/in/ikenna-akano-90ba31221/' target="_blank" > 
+                  <GrLinkedinOption  className='icons' size={30} /> 
+            </a> 
         </div>
-        <div> <AiFillGithub className='icons' size={30} /> 
+
+        <div> 
+            <a href='https://github.com/ikennaex' target="_blank" > 
+                  <AiFillGithub className='icons' size={30} /> 
+            </a>  
         </div>
     </div>
   )
@@ -17,17 +24,3 @@ const Footer = () => {
 export default Footer
 
 
-{/* <div className='footer'>
-<div> <GrLinkedinOption size={30} 
-      onMouseOver={({target})=>target.style.color="#5e5d5b"}
-      onMouseOut={({target})=>target.style.color="black"} /> 
-</div>
-<div> <AiFillGithub size={30} 
-      onMouseOver={({target})=>target.style.color="#5e5d5b"}
-      onMouseOut={({target})=>target.style.color="black"} /> 
-</div>
-<div> <AiFillInstagram size={30} 
-      onMouseOver={({target})=>target.style.color="#5e5d5b"}
-      onMouseOut={({target})=>target.style.color="black"} /> 
-</div>
-</div> */}

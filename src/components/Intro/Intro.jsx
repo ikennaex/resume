@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import {intro} from "./imports"
+import {ikenna} from "./imports"
 import TypeWriterEffect from 'react-typewriter-effect';
 
 const Intro = () => { 
@@ -25,7 +25,7 @@ const Intro = () => {
         </div>
 
         <div className='img-div'>
-            <img src= {intro} ></img>
+            <img src= {ikenna} ></img>
         </div>
     </div>
   )
