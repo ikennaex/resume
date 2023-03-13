@@ -48,10 +48,19 @@
         justify-content: center;
     }
 
+    .intro-text h1 {
+        font-size: 55px;
+    }
+
+    .intro-text h2 {
+        font-size: 45px;
+    }
+
     .intro-text {
         align-items: center;
         justify-content: center;
         align-items: center;
+        margin-bottom: 50px;
     }
 
     .img-div img {
@@ -63,5 +72,15 @@
     .nav-menu {
         display: flex;
         
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .intro-text h2 {
+        font-size: 25px;
+    }
+
+    .intro-text h1 {
+        font-size: 28px;
     }
 }

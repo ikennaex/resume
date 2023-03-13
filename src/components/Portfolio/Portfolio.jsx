@@ -13,19 +13,19 @@ const Portfolio = () => {
         <PortfolioDiv 
           image = {recipe}
           title = "Recipe App"
-          text = "A simple react app to get the recipe for any type of food using an API."
+          description = "A simple react app to get the recipe for any type of food using an API."
           link = "https://recipeapp-bice.vercel.app"
           gitrepo = "https://github.com/ikennaex/recipeapp" />
         <PortfolioDiv 
           image = {shoppingwebsite}
           title = "Shopping Website"
-          text = "A simple shopping website with add to cart functionality built with REACT JS"
+          description = "A simple shopping website with add to cart functionality built with REACT JS"
           link = "https://shopping-website-lake.vercel.app/"
           gitrepo = "https://github.com/ikennaex/shopping-website" />
         <PortfolioDiv 
           image = {shoppinglist}
           title = "Shopping List"
-          text = "A to-do list app built with React JS"
+          description = "A to-do list app built with React JS"
           link = "https://shopping-list-ikennaex.vercel.app/"
           gitrepo = "https://github.com/ikennaex/Shopping-List" />
         </div>

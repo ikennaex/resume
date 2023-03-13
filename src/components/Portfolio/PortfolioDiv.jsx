@@ -3,7 +3,7 @@ import "./portfolio.css"
 import { BsLink } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 
-const PortfolioDiv = ({image, title, link, gitrepo}) => {
+const PortfolioDiv = ({image, title, link, gitrepo, description}) => {
   return (
     <>
         <div className='portfolio-div'> 
@@ -11,7 +11,7 @@ const PortfolioDiv = ({image, title, link, gitrepo}) => {
 
           <div className='text-div'>
             <h3>{title}</h3>
-            <p>A simple react app to get the recipe for any type of food using an API.</p>
+            <p>{description}</p>
           </div>
 
           <div className='portfolio-links'>

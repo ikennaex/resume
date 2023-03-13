@@ -1,7 +1,6 @@
 import React from 'react'
 import { GrLinkedinOption } from "react-icons/gr";
 import { AiFillGithub } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
 import "./footer.css"
 
 const Footer = () => {
@@ -10,8 +9,6 @@ const Footer = () => {
         <div> <GrLinkedinOption className='icons' size={30} /> 
         </div>
         <div> <AiFillGithub className='icons' size={30} /> 
-        </div>
-        <div> <AiFillInstagram className='icons' size={30} /> 
         </div>
     </div>
   )
