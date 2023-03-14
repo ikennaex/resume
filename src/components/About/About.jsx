@@ -17,7 +17,8 @@ const About = () => {
         </div>
 
         <div className='download-btn-div'>
-        <button type='button' className='download-button'>Download Resume</button>
+          <a href='https://drive.google.com/file/d/16mfnAWxG_epi0oi1VwqVsVZH3pE_sBSE/view?usp=sharing' target= "_blank"><button type='button' className='download-button'>Download Resume</button></a>
+        
         </div>
     </div>
   )

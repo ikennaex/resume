@@ -3,22 +3,19 @@ import { useState } from 'react';
 import "./navbar.css";
 import {RiMenu3Line, RiCloseLine} from "react-icons/ri"
 
-
 const Navbar = () => {
-
-  const [toggleMenu, setToggleMenu] = useState(false)
-
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className='navbar'>
-    <nav className='navbar-div'>
-      <ul>
+    <div className='navbar-div'>
+      <ul className='navbar-links'>
       <li><a href='#about'>About</a></li>
       {/* <li><a href='#skills'>Skills</a></li> */}
       <li><a href='#stack'>Stack</a></li>
       <li><a href='#portfolio'>Portfolio</a></li>
       <li><a href='#contact-me'>Contact me</a></li>
       </ul>
-    </nav>
+    </div>
 
     <div className='nav-menu'>
     {toggleMenu 
