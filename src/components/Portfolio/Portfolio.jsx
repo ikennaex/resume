@@ -38,8 +38,8 @@ const Portfolio = () => {
           image = {openai}
           title = "Image Generator"
           description = "Generates an image with the use of Openai"
-          link = "https://gpt3-app-black.vercel.app/"
-          gitrepo = "https://github.com/ikennaex/gpt-app" />
+          link = "https://imagegenerator-six.vercel.app/"
+          gitrepo = "https://github.com/ikennaex/imagegenerator" />
         </div>
         </div>
   )
