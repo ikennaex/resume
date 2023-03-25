@@ -1,7 +1,7 @@
 import React from 'react'
 import PortfolioDiv from './PortfolioDiv'
 import "./portfolio.css"
-import {recipe, shoppingwebsite, shoppinglist} from "./imports"
+import {recipe, shoppingwebsite, shoppinglist, gpt3, openai} from "./imports"
 
 const Portfolio = () => {
   return (
@@ -28,6 +28,18 @@ const Portfolio = () => {
           description = "A to-do list app built with React JS"
           link = "https://shopping-list-ikennaex.vercel.app/"
           gitrepo = "https://github.com/ikennaex/Shopping-List" />
+        <PortfolioDiv 
+          image = {gpt3}
+          title = "GPT3 UI"
+          description = "GPT3 UI design from figma to REACT JS framework"
+          link = "https://gpt3-app-black.vercel.app/"
+          gitrepo = "https://github.com/ikennaex/gpt-app" />
+        <PortfolioDiv 
+          image = {openai}
+          title = "Image Generator"
+          description = "Generates an image with the use of Openai"
+          link = "https://gpt3-app-black.vercel.app/"
+          gitrepo = "https://github.com/ikennaex/gpt-app" />
         </div>
         </div>
   )

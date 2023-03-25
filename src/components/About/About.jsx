@@ -9,7 +9,7 @@ const About = () => {
         <div className='about-area'>
             <img src={about} ></img>
 
-            <p>I am a web developer with a passion 
+            <p>I am a full stack web developer with a passion 
               for creating beautiful and functional websites 
               and decentralized applications. I have a strong 
               passion for learning new technologies and I am 
