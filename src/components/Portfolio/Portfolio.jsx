@@ -1,7 +1,7 @@
 import React from 'react'
 import PortfolioDiv from './PortfolioDiv'
 import "./portfolio.css"
-import {recipe, shoppingwebsite, shoppinglist, gpt3, openai} from "./imports"
+import {recipe, shoppingwebsite, shoppinglist, gpt3, openai, netflix} from "./imports"
 
 const Portfolio = () => {
   return (
@@ -38,8 +38,14 @@ const Portfolio = () => {
           image = {openai}
           title = "Image Generator"
           description = "Generates an image with the use of Openai"
-          link = "https://imagegenerator-six.vercel.app/"
-          gitrepo = "https://github.com/ikennaex/imagegenerator" />
+          link = "https://gpt3-app-black.vercel.app/"
+          gitrepo = "https://github.com/ikennaex/gpt-app" />
+        <PortfolioDiv 
+          image = {netflix}
+          title = "Netflix Clone"
+          description = "Netflix Clone built with REACT JS, State management with Redux Toolkit, Authentication handling with Firebase and pulling movie Information from the TMBD database. Featuring Beautiful UI/UX , Login and Logout functionality using Google Authentication from Firebase"
+          link = "https://netflix-clone-1e392.web.app/"
+          gitrepo = "https://github.com/ikennaex/netflix" />
         </div>
         </div>
   )

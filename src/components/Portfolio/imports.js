@@ -3,9 +3,10 @@ import shoppinglist from "../../Assets/shopping-list.png"
 import shoppingwebsite from "../../Assets/shopping-website.png"
 import gpt3 from "../../Assets/gpt3.png"
 import openai from "../../Assets/openai.png"
+import netflix from "../../Assets/netflix.png"
 // import react from "../../Assets/recipe-app.png"
 
 
 export {
-    recipe,shoppingwebsite, shoppinglist, gpt3, openai,
+    recipe,shoppingwebsite, shoppinglist, gpt3, openai, netflix,
 }

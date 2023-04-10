@@ -9,8 +9,9 @@
 .portfolio-div {
     display: flex;
     flex-direction: column;
-    height: 370px;
+    height: 400px;
     width: 400px;
+    padding: 20px;
     margin: auto;
     margin-bottom: 30px;
     border-radius: 20px;
